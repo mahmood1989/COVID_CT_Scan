@@ -1,3 +1,3 @@
-# COVID_CT_Scan
+# Chest CT-Scan analysis for COVID diagnosis
 In this notebook, I used the available CT-scan dataset on Kaggle to predict the positive or negative COVID cases. https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset
 This is a binary classification problem where positive COVID cases have class = 1 and negative COVID cases have class = 0. I used transfer learning to solve this problem. In the first model which is DenseNet121, I got 90% accuracy with weighted average F1-score of 90% on test data. In the second model which is InceptionV3, I got 97% accuracy with weighted average F1-score of 97% on test data which are way higher than those of DenseNet121. In both models, I freezed the first 100 layers.
